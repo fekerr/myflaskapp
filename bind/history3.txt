@@ -1,0 +1,138 @@
+    1  ps
+    2  python app.py
+    3  ls /var/run
+    4  ls /var/run/m*
+    5  ls
+    6  ls /var/run
+    7  ls
+    8  cat Dockerfile
+    9  ls
+   10  exit
+   11  ls
+   12  apt install mysql
+   13  ls
+   14  less Dockerfile
+   15  apt install less
+   16  less Dockerfile
+   17  apt install mysql-server
+   18  apt remove mysql-server
+   19  apt install mysql-server
+   20  less Dockerfile
+   21  less Dockerfile
+   22  less Dockerfile
+   23  apt remove libmysqlclient-dev
+   24  apt remove default-libmysqlclient-dev
+   25  apt install default-libmysqlclient-dev
+   26  apt install apt-utils
+   27  apt update
+   28  apt upgrade
+   29  apt remove default-libmysqlclient-dev
+   30  apt remove mysql-server
+   31  apt install mysql-server
+   32  apt install default-libmysqlclient-dev
+   33  mysql -u root
+   34  mysql -u root -p
+   35  mysql -u root -p
+   36  mysql -u root
+   37  mysql_secure_installation
+   38  cd /etc
+   39  ls
+   40  cd mysql/
+   41  ls
+   42  cat my.cnf
+   43  less my.cnf
+   44  vim my.cnf
+   45  ls
+   46  ls *.cnf
+   47  less mariadb.c
+   48  ls
+   49  cat mariadb.cnf
+   50  ls
+   51  ls -rtla
+   52  cat debian.cnf
+   53  ls
+   54  ls -rtla
+   55  mysqladmin -u root -p status
+   56  cd /var/lib/mysql
+   57  ls
+   58  cd ..
+   59  ls -rtla
+   60  sudo chmod -R 755 /var/lib/mysql/
+   61  chmod -R 755 /var/lib/mysql/
+   62  ls -rtla
+   63  cd mysql
+   64  ls
+   65  ls -rtla
+   66  cd
+   67  history
+   68  history | less
+   69  mysql_secure_installation
+   70  cd
+   71  apt remove mysql
+   72  pwd
+   73  cd root
+   74  ls
+   75  cd /root
+   76  ls
+   77  pwd
+   78  cd /app
+   79  ls
+   80  cd docker
+   81  ls
+   82  cd ..
+   83  cd bind
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd bind
+   88  history > history2.txt
+   89  ls
+   90  bleagh
+   91  cd ..
+   92  ls
+   93  less Dockerfile
+   94  vim Dockerfile
+   95  ls
+   96  mv undock.sh unapt.sh
+   97  . unapt.sh
+   98  ls
+   99  vim unapt.sh
+  100  ls
+  101  cat unapt.sh 
+  102  ls
+  103  cat Dockerfile
+  104  mv Dockerfile unapt_.sh
+  105  mv unapt.sh Dockerfile
+  106  ls
+  107  less Dockerfile
+  108  cat unapt_.sh
+  109  . unapt_.sh
+  110  apt list
+  111  apt list > apt_list.txt
+  112  less apt_list.txt
+  113  less apt_list.txt
+  114  ls
+  115  cat unapt_.sh
+  116  apt-get install mysql-server
+  117  apt remove mysql-server
+  118  apt-get install mysql-server
+  119  mysql_secure_installation
+  120  ls /var/lib/mysql/
+  121  ls /var/lib/mysql/mysql/
+  122  mysqladmin -u root
+  123  mysqladmin -u root | less
+  124  mysqladmin -u root -p status
+  125  vim apt_get.sh
+  126  ls
+  127  ls *.sh
+  128  cat apt_get.sh
+  129  . apt_get.sh
+  130  /etc/init.d/mysql start
+  131  cd bind
+  132  ls
+  133  cp ../Dockerfile .
+  134  vim Dockerfile
+  135  mysqladmin -u root -p status
+  136  cat Dockerfile
+  137  ls
+  138  history > history3.txt

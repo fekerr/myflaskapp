@@ -1,0 +1,17 @@
+    1  ls
+    2  python
+    3  python app.py
+    4  pip mysqldb
+    5  pip install mysqldb
+    6  pip install mysql
+    7  python app.py
+    8  pip install flask_mysqldb
+    9  python app.py
+   10  pip install wtforms
+   11  python app.py
+   12  pip install passlib
+   13  python app.py 
+   14  history
+   15  cd bind
+   16  ls
+   17  history > history.txt
