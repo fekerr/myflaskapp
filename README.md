@@ -30,7 +30,9 @@ cd docker
 # This article was helpful.
 # https://stackoverflow.com/questions/5376427/cant-connect-to-local-mysql-server-through-socket-var-mysql-mysql-sock-38
 
-/etc/init.d/mysqld start
+#/etc/init.d/mysqld start
+# sudo (as needed)
+service mysql start
 mysqladmin -u root password 'new-password'
 mysql -u root -p
 CREATE DATABASE myflaskapp;
