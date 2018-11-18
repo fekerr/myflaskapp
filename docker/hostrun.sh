@@ -5,6 +5,7 @@
 # run with ". hostrun.sh"
 
 export MYFLASKAPPVER=1.2
+export MYFLASKAPPPORT=83
 
-docker container run -t --detach --publish 82:80 --name myflaskapp_${MYFLASKAPPVER} --mount type=bind,source=$(pwd)/../bind,target=/app/bind myflaskapp_${MYFLASKAPPVER} bash
+docker container run -t --detach --publish ${MYFLASKAPPPORT}:80 --name myflaskapp_${MYFLASKAPPVER} --mount type=bind,source=$(pwd)/../bind,target=/app/bind fekerr/myflaskapp:${MYFLASKAPPVER} bash
 

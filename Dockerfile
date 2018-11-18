@@ -19,7 +19,7 @@ RUN apt-get update -qq && \
     apt-get install -y \
     git \
     vim \
-    mysql \
+    mysql-client \
     mysql-server \
     default-libmysqlclient-dev
 
