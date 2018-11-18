@@ -1,6 +1,7 @@
 #!/bin/bash
-# fekerr 20181108 Thu
-# create traversy flask app docker
+# fekerr 20181118 Sun 
+# Implement Brad Traversy myflaskapp using Docker
 
-docker build -t fekerr/travflask:1.0 ..
+export MYFLASKAPPVER=1.2
+docker build -t fekerr/myflaskapp:${MYFLASKAPPVER} ..
 

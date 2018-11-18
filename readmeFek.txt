@@ -1,4 +1,4 @@
-20181108 fekerr
+20181118 fekerr
 https://www.youtube.com/watch?v=zRwy8gtgJ1A&t=0s&list=PLillGF-RfqbbbPz6GSEM9hLQObuQjNoj_&index=2
 
 https://www.youtube.com/watch?v=zRwy8gtgJ1A&t=0s&list=PLillGF-RfqbbbPz6GSEM9hLQObuQjNoj_&index=2

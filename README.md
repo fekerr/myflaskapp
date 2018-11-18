@@ -11,10 +11,6 @@ To use this template, your computer needs:
 
 The Dockerfile uses Python3.
 
-Some links:
-- [Python 2 or 3](https://python.org)
-- [Pip Package Manager](https://pypi.python.org/pypi)
-
 ### Running the app
 
 ```bash
@@ -30,8 +26,7 @@ cd docker
 # This article was helpful.
 # https://stackoverflow.com/questions/5376427/cant-connect-to-local-mysql-server-through-socket-var-mysql-mysql-sock-38
 
-#/etc/init.d/mysqld start
-# sudo (as needed)
+# sudo (if needed)
 service mysql start
 mysqladmin -u root password 'new-password'
 mysql -u root -p

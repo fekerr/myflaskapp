@@ -30,7 +30,7 @@ def about():
     return render_template('about.html')
 
 
-# Articles
+## Articles
 @app.route('/articles')
 def articles():
     # Create cursor
@@ -48,6 +48,47 @@ def articles():
         return render_template('articles.html', msg=msg)
     # Close connection
     cur.close()
+
+
+# Articles -> Run
+@app.route('/run')
+def run_articles():
+    # Create cursor
+    cur = mysql.connection.cursor()
+
+    # Get articles
+    result = cur.execute("SELECT * FROM articles")
+
+    articles = cur.fetchall()
+
+    if result > 0:
+        return render_template('run_articles.html', articles=articles)
+    else:
+        msg = 'No Articles Found'
+#        return render_template('articles.html', msg=msg)
+        return render_template('run_articles.html', msg=msg)
+    # Close connection
+    cur.close()
+
+
+# Run Single Article
+@app.route('/run_article/<string:id>/')
+def run_article(id):
+    # Create cursor
+    cur = mysql.connection.cursor()
+
+    # Get article
+    result = cur.execute("SELECT * FROM articles WHERE id = %s", [id])
+
+    article = cur.fetchone()
+
+    # "run" article...
+#    new_article_body = ""
+#    for i in article.body:
+#        new_article.body = i + '_'
+#    article.body = new_article.body
+
+    return render_template('run_article.html', article=article)
 
 
 #Single Article

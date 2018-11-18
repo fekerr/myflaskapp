@@ -1,8 +1,10 @@
 #!/bin/bash
-# fekerr 20181108 Thu
-# This will be the command run on the host to start the travflask docker container
-# run with ". hostrun.sh"
-TRAVFLASKVER=1.0
+# fekerr 20181118 Sun
 
-docker container run -t --detach --publish 82:80 --name travflask_${TRAVFLASKVER} --mount type=bind,source=$(pwd)/../bind,target=/app/bind fekerr/travflask:${TRAVFLASKVER} bash
+# This is run on the host to start the myflaskapp Docker container.
+# run with ". hostrun.sh"
+
+export MYFLASKAPPVER=1.2
+
+docker container run -t --detach --publish 82:80 --name myflaskapp_${MYFLASKAPPVER} --mount type=bind,source=$(pwd)/../bind,target=/app/bind myflaskapp_${MYFLASKAPPVER} bash
 

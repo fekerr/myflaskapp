@@ -1,1 +1,7 @@
-docker exec -it travflask_1.0 bash
+#!/bin/bash
+# fekerr 20181118 Sun 
+# Implement Brad Traversy myflaskapp using Docker
+
+export MYFLASKAPPVER=1.2
+docker exec -it myflaskapp_${MYFLASKAPPVER} bash
+
